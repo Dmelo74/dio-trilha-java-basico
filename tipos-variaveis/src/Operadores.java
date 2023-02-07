@@ -1,32 +1,50 @@
 public class Operadores {
     public static void main(String[] args) {
         //classe Operadores.java
-    String nomeCompleto = "LINGUAGEM" + "JAVA";
-    System.out.println(nomeCompleto);
-
+    //String nomeCompleto = "LINGUAGEM" + "JAVA";
+    //System.out.println(nomeCompleto);
+    //classe Operadores.java
+    //int numero = 5;
 		
-//qual o resultado das expressoes abaixo?
-    String concatenacao ="?"; 
+    //Imprimindo o numero negativo
+    //System.out.println(- numero);
 
-    concatenacao = 1+1+1+"1";
+    //incrementando numero em mais 1 numero, imprime 6
+    //numero ++;
+    //System.out.println(numero);
 
-    System.out.println(concatenacao);
+    //incrementando numero em mais 1 numero, imprime 7
+    //System.out.println(numero ++);// ops algo de errado não está certo
 
-    concatenacao = 1+"1"+1+1;
+    //System.out.println(numero);// agora sim, numero virou 7
 
-    System.out.println(concatenacao);
+    //ordem de precedencia conta aqui
+    //System.out.println(++ numero);
 
-    concatenacao = 1+"1"+1+"1";
+    //boolean verdadeiro = true;
 
-    System.out.println(concatenacao);
+    //System.out.println("Inverteu " + !verdadeiro);
 
-    concatenacao = "1"+1+1+1;
+    // classe Operadores.java
+    int a, b;
 
-    System.out.println(concatenacao);
+    a = 6;
+    b = 6;
 
-    concatenacao = "1"+(1+1+1);
+    String resultado = a == b ? "verdadeiro" : "falso";
 
-    System.out.println(concatenacao);
+    // EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+    //if(a==b)
+        //resultado = " ";
+    //else
+        //resultado = "falso";
+
+    System.out.println(resultado);
+    
+
+    
+    	
+
     }
     
 }
